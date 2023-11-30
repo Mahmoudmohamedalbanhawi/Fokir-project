@@ -504,3 +504,122 @@ li{
     color: black;
     padding: 10px;
 }
+.contact-us{
+    margin: 50px 0px;
+}
+.contact-us h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    margin: 10px 0;
+}
+.contact-us h2::after{
+    content: '';
+    position: absolute;
+    background-color: var(--main-color);
+    width: 180px;
+    height: 1px;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.contact-us h2::before{
+    content: '';
+    position: absolute;
+    background-color: var(--main-color);
+    width: 100px;
+    height: 1px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.form{
+    width: 80%;
+    margin: 40px auto; 
+
+}
+.personal-data{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+  
+}
+.user-name{
+    width: 50%;
+    padding: 10px;
+}
+.user-name input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.email{
+    width: 50%;
+    padding: 10px;
+}
+.email input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.subject{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.subject input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.text-area{
+    padding: 10px;
+}
+.text-area textarea{
+    width: 100%;
+    padding: 30px 10px;
+    border-color: gray;
+    border-radius: 5px;
+
+}
+
+.form .btns{
+    padding: 10px;
+}
+.form .btns button{
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+}
+.footer{
+    text-align: center;
+    background-color: #333333;
+    padding: 50px 0px;
+}
+.social a{
+    color: #fff;
+  
+}
+.social a i{
+    font-size: 20px;
+    margin: 0px 15px;
+}
+.social i:hover{
+    color: var(--main-color);
+}
+.footer p{
+    color: #fff;
+    margin: 15px 0px;
+    padding: 25px 0px;
+}
+.footer span{
+    color: var(--main-color);
+}
